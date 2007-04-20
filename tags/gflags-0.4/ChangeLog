@@ -1,0 +1,29 @@
+Wed Dec 13 12:37:19 2006  Google Inc. <opensource@google.com>
+
+	* google-gflags: initial release:
+	The gflags package contains a library that implements commandline
+	flags processing.  As such it's a replacement for getopt().  It
+	has increased flexibility, including built-in support for C++
+	types like string, and the ability to define flags in the source
+	file in which they're used.
+
+Mon Jan 22 15:33:06 2007  Google Inc. <opensource@google.com>
+
+	* google-gflags: version 0.2
+	* added support for python commandlineflags, as well as c++
+	* gflags2man, a script to turn flags into a man page (dchristian)
+
+Wed Mar 28 12:15:56 2007  Google Inc. <opensource@google.com>
+
+	* google-gflags: version 0.3
+	* python portability fix: use popen instead of subprocess (csilvers)
+	* Add is_default to CommandLineFlagInfo (pchien)
+	* Make docs a bit prettier (csilvers)
+	* Actually include the python files in the distribution! :-/ (csilvers)
+
+Thu Apr 19 15:15:07 2007  Google Inc. <opensource@google.com>
+
+	* google-gflags: version 0.4
+	* Remove is_default from GetCommandLineFlagInfo (csilvers)
+	* Portability fixes: includes, strtoll, gcc4.3 errors (csilvers)
+	* A few doc typo cleanups (csilvers)
